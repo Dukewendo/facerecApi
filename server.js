@@ -11,7 +11,7 @@ const profile = require("./controllers/profile");
 const image = require("./controllers/image");
 
 app.use(bodyParser.json());
-//check if this is needed
+//check if this is needed if not- delete it
 app.use(cors());
 
 app.use(function(req, res, next) {
