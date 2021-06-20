@@ -1,5 +1,6 @@
 const Clarifai = require("clarifai");
 
+//Add your API to Heroku config vars
 const app = new Clarifai.App({
   apiKey: process.env.API_CLARIFAI,
 });
